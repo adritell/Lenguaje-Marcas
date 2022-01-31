@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<matricula>
+    <personal>
+        <DNI></DNI>
+        <nombre></nombre>
+        <titulacion></titulacion>
+        <curso_academico></curso_academico>
+        <domicilios>
+            <domicilio>
+                <nombre></nombre>
+            </domicilio>
+            <domicilio>
+                <nombre></nombre>
+            </domicilio>
+        </domicilios>
+    </personal>
+    <pago>
+        <tipo_matricula></tipo_matricula>
+    </pago>
+</matricula>
