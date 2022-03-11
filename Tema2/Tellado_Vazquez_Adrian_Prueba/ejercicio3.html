@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <table align="center">
+            <tr>
+                <th align="center" colspan="2">IES Alixar Login</th>
+            </tr>
+
+            <td>
+                <label for="Usuario">Usuario:</label>
+            </td>
+            <td>
+                <input type="text" name="Usuario" id="Usuario">
+            </td>
+            <tr>
+                <td>
+                    <label for="Password">Password:</label>
+                </td>
+                <td>
+                    <input type="text" name="Password" id="Password">
+                </td>
+            </tr>
+            <td>
+                <label for="Fecha de Nacimiento">Fecha de Nacimiento:</label>
+
+            </td>
+            <td>
+                <input type="text" name="Fecha de Nacimiento" id="FC">
+            </td>
+            <tr>
+                <td>
+                    <label for="Curso de Matriculación">Curso de Matriculacion:</label>
+                </td>
+
+                <td>
+                    <select name="Curso de Matriculación" id="Curso de Matriculación">
+                        <option value="Primero de DAW">Primero de DAW (DAW1)</option>
+                        <option value="Segundo de DAW">Segundo de DAW (DAW2)</option>
+                    </select>
+                </td>
+            </tr>
+            <td rowspan="5">
+                <label for="Role"></label>Role:
+            </td>
+            <tr>
+                <td>
+                    <input type="radio" name="Role" id="Role">Estudiante
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Role" id="Role">Profesor
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Role" id="Role">Apoyo
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Role" id="Role">Staff
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">
+                    <label for="Forma de Comunicación">Forma de Comunicación:</label>
+                </td>
+                <td>
+
+            <tr>
+                <input type="radio" name="Forma de Comunicación" id="Forma de Comunicación">Mail
+            </tr>
+            <tr>
+                <input type="radio" name="Forma de Comunicación" id="Forma de Comunicación">Teléfono
+            </tr>
+            <tr>
+                <input type="radio" name="Forma de Comunicación" id="Forma de Comunicación">Correo ordinario
+            </tr>
+
+            </td>
+            <tr></tr>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <label for="Enviar"></label>
+                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Borrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
