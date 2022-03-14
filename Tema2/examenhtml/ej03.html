@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tbody,th,td{
+            text-align: center; border-style:dashed;
+        }
+        th{
+            background-color: lightsalmon;
+        }
+        th,td{
+            border-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" align="center" border="separate">  <!-- Total columnas=10 --> 
+        <tbody>
+            <tr align="center"> <!-- Fila 1 -->
+                <th colspan="2">Número del catálogo</th>
+                <th colspan="2">Nombre</th>
+                <th>Imagen</th>
+                <th colspan="3">Web donde lo encontramos</th>
+                <th>Tienda</th>
+                <th>Precio</th>
+            </tr>
+            <tr> <!-- Fila 2 -->
+                <td colspan="2">7821562</td>
+                <td colspan="2">Atari Mini</td>
+                <td><img src="Atari mini.png" alt="Atari"></td>
+                <td colspan="3"><a href="https://www.ebay.es/" target="blank">https://www.ebay.es/</a></td>
+                <td>E-Bay</td>
+                <td>100€</td>
+            </tr>
+            <tr> <!-- Fila 3 -->
+                <td colspan="2">243243</td>
+                <td colspan="2">Super Nintendo Mini</td>
+                <td><img src="Super Nintendo Mini.png" alt="Super Nintendo"></td>
+                <td colspan="4" rowspan="3"><a href="https://www.amazon.es/" target="blank">https://www.amazon.es/</a></td>
+                <td>100€</td>
+            </tr>
+            <tr> <!-- Fila 4 -->
+                <td colspan="2">593922</td>
+                <td colspan="2">Mega Drive Mini</td>
+                <td><img src="Mega Drive Mini.png" alt=""></td>
+                <td>200€</td>
+            </tr>
+            <tr> <!-- Fila 5 -->
+                <td colspan="2">593922</td>
+                <td colspan="2">Playstation Mini</td>
+                <td><img src="Play mini.png" alt="Playstation"></td>
+                <td>300€</td>
+            </tr>
+            <tr> <!-- Fila 6 -->
+                <th colspan="2">Número del catálogo</th>
+                <th colspan="2">Nombre</th>
+                <th>Imagen</th>
+                <th colspan="3">Web donde lo encontramos</th>
+                <th>Tienda</th>
+                <th>Precio</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
