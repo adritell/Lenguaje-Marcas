@@ -1,0 +1,110 @@
+body{
+    width: 90%;
+    height: 100%;
+}
+
+.superior {
+    display: flex;
+    width: 87%;
+    margin-left: 12%;
+}
+
+.elementos_arriba{
+    display: flex;
+    width: 100%;
+    align-self: center;
+    align-content: center;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 38%;
+    font-size: 13px;
+}
+#menu2{
+    list-style: none;
+    align-self: center;
+    align-items: center;
+}
+
+.medio{
+    display: flex;
+    width: 102%;
+    margin-left: 4%;
+    height: 400px;
+    align-items: center;
+}
+.title{
+    color: white;
+    align-self: center;
+    justify-content: space-between;
+    margin: 18%;
+    width: 400%;
+    text-align: center;
+    line-height: 27px;
+    margin-bottom: 26%;
+
+}
+#form{
+    justify-content: space-between;
+    margin: 30%;
+    text-align: left;
+}
+#textoimg{
+    align-items: center;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+.medio2{
+    margin-top: 3%;
+    display: flex;
+    align-items: baseline;
+    align-items: flex-end;
+    height: 190px;
+    width: 110%; 
+}
+#title2{
+    display: flex;
+    align-self: baseline;
+    margin-left: 130%;
+    font-size: 18px;
+    width: 100%;
+    align-items: center;
+}
+
+.inline-block{
+    margin-left: 20%;
+
+    width: 45%;
+    text-align: center;
+}
+
+.imagenes1{
+    display: flex;
+    align-content: center;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 7%;
+
+    
+}
+.imagenes2{
+    display: flex;
+    
+    
+}
+.num{
+    
+    margin-left: 20%;
+    width: 45%;
+    text-align: center;
+
+}
+div div img{
+    display: flex;
+    text-align: center;
+    width: 360px;
+    height: 200px;
+}
