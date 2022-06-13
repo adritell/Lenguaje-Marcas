@@ -1,0 +1,158 @@
+body{
+    width: 90%;
+    height: 100%;
+}
+
+.superior {
+    color: black;
+    position: relative;
+    left: 7%;
+    top: 0%;
+    z-index: 1;
+}
+nav ul li {
+    display: inline-block;
+   
+}
+
+ul {
+   position:relative;  /*No necesario. */
+}
+
+#menu{
+    position: absolute;
+    top: 25%;
+    left: 12.2%;
+    font-size: 14px;
+    margin: 0;
+}
+
+#menu2{
+    position: absolute;
+    top: 0%;
+    left: 79%;
+    
+    margin: 0;
+}
+
+#plus{
+    font-size: 30px;
+} 
+
+.block1{
+    display: block;
+    color: rgb(255, 0, 221);
+    
+    border: black;
+    border-style: groove;
+}
+.block2{
+    display: block;
+    border: black;
+    border-style: groove;
+}
+.medio{
+    position: relative;
+    text-align: center;
+    background-size: 40%;
+    left: 3%;
+    height: 200px;
+    width: 100%;
+}
+img{
+    width: 100%;
+    max-height: 160%;
+    opacity: 0.9;
+}
+
+.medio2{
+    box-sizing:border-box;
+    position: absolute;
+    top: 60%;
+}
+.medio3{
+    position: relative;
+    text-align: center;
+    right: 5%;
+    left: 20%;
+    display: inline-block;
+    width: 20%;
+    margin: 0%;
+    top: 20%;
+}
+
+.contenimg{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    max-width: 18%;
+    top: 80%;
+    z-index: 2;
+    bottom: 30%;    
+}
+#plus2{
+    font-size:18px;
+    text-align: center;
+    position: relative;
+}
+h3{
+    position: relative;
+    line-height: 130%;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: xx-large;
+    color: aliceblue;
+    right: 15%;
+    margin: -1%;
+    top: 20%;
+}
+
+#form{
+    text-align: left;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 79%;
+    margin: 1%;
+    color: white;
+    line-height: 150%;
+}
+
+
+#title{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 23.5%;
+    margin: 1%;
+    color: whitesmoke;
+}
+#center{
+    text-align: left;
+}
+
+.inline-block{
+    font-size: 35px;
+    margin: 0;
+    color: black;
+}
+.imagenes1{
+    background-color: beige;
+    box-sizing:border-box;
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    right: 7%;
+    margin: 0%;
+}
+.imagenes2{
+    position: relative;
+    text-align: center;
+    right: 5%;
+    left: 20%;
+    display: inline-block;
+    width: 20%;
+    margin: 0%;
+    background-color: beige;
+
+}
